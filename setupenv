@@ -1,0 +1,4 @@
+export SRCPATH=$PWD
+export PATH=$PATH:$SRCPATH/src
+export PYTHONPATH=$SRCPATH/src
+alias gosrc="cd $SRCPATH;pwd"
